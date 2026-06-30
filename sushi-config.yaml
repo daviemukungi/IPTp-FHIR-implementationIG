@@ -4,21 +4,27 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.iptpig
-canonical: http://example.org
+canonical: http://iptp.kemri.go.ke/fhir
 name: IPTpIG
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: IPTp-SP Digital Support System Implementation Guide
+description: >-
+  FHIR Implementation Guide for the IPTp-SP (Intermittent Preventive Treatment of malaria in
+  Pregnancy with Sulfadoxine-Pyrimethamine) Digital Support System Kakamega Pilot (Shinyalu &
+  Ikolomani). Models USSD-based ANC provider enrollment, DOT and self-administered dosing,
+  the dedicated SMS short code (25332) and InfoAFYA behavioural-support channel, the dose
+  confirmation engine, adverse drug reaction and issue reporting, and CHP follow-up.
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
 releaseLabel: ci-build
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: urn:iso:std:iso:3166#KE "Kenya"
 publisher:
-  name: Example Publisher
-  url: http://example.org/example-publisher
+  name: IPTp-SP Digital Support System Implementation Team
+  url: http://iptp.kemri.go.ke
   # email: test@example.org
+  # NOTE: placeholder publisher identity — replace with the real publishing organization
+  # (e.g. county health department / KEMRI / implementing partner) before this IG is published.
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
