@@ -14,7 +14,7 @@ description: >-
   the dedicated SMS short code (25332) and InfoAFYA behavioural-support channel, the dose
   confirmation engine, adverse drug reaction and issue reporting, and CHP follow-up.
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 0.1.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
 releaseLabel: ci-build
